@@ -1,0 +1,23 @@
+.person{
+    background-color:lightskyblue;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    margin-bottom:2%;
+    box-shadow: 5px 5px 6px black;
+    border-radius: 2%;
+    border-color: yellow;
+    border-radius: 5px 3px 4px;
+    color: whitesmoke;
+}
+.person:hover {
+    box-shadow: 5px 5px 6px blue;
+}
+.person:hover > h1 {
+    color:blue
+}
+body{
+    background-image:linear-gradient(darkblue, lightskyblue);
+}
